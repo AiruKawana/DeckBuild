@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class DragandDrop : MonoBehaviour, IBeginDragHandler, IDragHandler,IEndDragHandler
 {
-    private Vector3 prePos;
+    private Vector2 prePos;
     public void OnBeginDrag(PointerEventData eventData)
     {
         prePos = transform.position;
